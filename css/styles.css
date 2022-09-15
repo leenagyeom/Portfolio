@@ -1322,6 +1322,7 @@ progress {
 .gy-md-5 {
     --bs-gutter-y: 3rem;
   }
+
 }
 @media (min-width: 992px) {
   .col-lg {
@@ -11440,20 +11441,11 @@ html {
   max-width: 30rem;
 }
 
-.contact_mail {
-  display: block;
-  text-align: center;
-  font-size: 82px;
-  font-weight: 500;
-  transition: all .3s;
-  font-family: montserrat,AppleGothic,sans-serif,Helvetica;
-  text-decoration: none;
-}
-
 footer.footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
+
 footer.footer .social-link {
   display: block;
   text-decoration: none;
@@ -11586,8 +11578,4 @@ footer.footer .social-link:hover {
   line-height: 7.5rem;
   font-size: 2.25rem;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
-}
-
-canvas {
-  aspect-ratio: auto 100 / 100;
 }
